@@ -1,8 +1,8 @@
 import { input } from './input.js'
 import { translate } from './translate.js'
 
-const InputToTranslate = input()
-const translationResult = translate(InputToTranslate)
+const inputToTranslate = input()
+const translationResult = translate(inputToTranslate)
     
 console.log(translationResult)
 
